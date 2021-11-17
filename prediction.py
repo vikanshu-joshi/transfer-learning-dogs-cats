@@ -58,7 +58,7 @@ def process_images(images):
 
 
 def start_prediction():
-    model = keras.models.load_model("model_trained")
+    model = keras.models.load_model("trained_model")
     cwd = os.getcwd()
     while len(os.listdir(cwd)) > 4:
         test = process_images(data_loading(1000))
