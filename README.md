@@ -16,3 +16,6 @@ The problem statement is, given an image, identify whether it is a dog or a cat 
 <li>The model is trained on 8000 images 4000 on each class.
 <li>Then it is tested on 200 images and output is printed alongwith image.
 <li>Model reached an accuracy of 99% in 3 epochs.
+
+ ## predictions preview
+ <img src="https://github.com/vikanshu-joshi/transfer-learning-dogs-cats/blob/master/preview.png"/>
